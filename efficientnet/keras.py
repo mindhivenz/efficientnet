@@ -1,8 +1,6 @@
 from . import inject_keras_modules, init_keras_custom_objects
 from . import model
 
-from .preprocessing import center_crop_and_resize
-
 EfficientNetB0 = inject_keras_modules(model.EfficientNetB0)
 EfficientNetB1 = inject_keras_modules(model.EfficientNetB1)
 EfficientNetB2 = inject_keras_modules(model.EfficientNetB2)

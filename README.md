@@ -1,13 +1,11 @@
 # EfficientNet Keras (and TensorFlow Keras)
 
+Mindhive fork removing 
+
 This repository contains a Keras (and TensorFlow Keras) reimplementation of **EfficientNet**, a lightweight convolutional neural network architecture achieving the [state-of-the-art accuracy with an order of magnitude fewer parameters and FLOPS](https://arxiv.org/abs/1905.11946), on both ImageNet and
 five other commonly used transfer learning datasets.
 
 The codebase is heavily inspired by the [TensorFlow implementation](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet).
-
-## Important!
-There was a huge library update **24 of July**. Now efficintnet works with both frameworks: `keras` and `tensorflow.keras`.
-If you have models, trained before that date, to load them, please, use efficientnet of 0.0.4 version (PyPI). You can roll back using `pip install -U efficientnet==0.0.4`.
 
 ## Table of Contents
 
@@ -92,7 +90,6 @@ The performance of each model variant using the pre-trained weights converted fr
 
 * `Keras >= 2.2.0` / `TensorFlow >= 1.12.0`
 * `keras_applications >= 1.0.7`
-* `scikit-image`
 
 ### Installing from the source
 

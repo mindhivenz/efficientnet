@@ -26,7 +26,7 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = "efficientnet"
+NAME = "efficientnet-lite"
 DESCRIPTION = "EfficientNet model re-implementation. Keras and TensorFlow Keras."
 URL = "https://github.com/qubvel/efficientnet"
 EMAIL = "qubvel@gmail.com"
@@ -62,7 +62,7 @@ except FileNotFoundError:
 # Load the package's __version__.py module as a dictionary.
 about = {}
 if not VERSION:
-    with open(os.path.join(here, NAME, "__version__.py")) as f:
+    with open(os.path.join(here, "efficientnet", "__version__.py")) as f:
         exec(f.read(), about)
 else:
     about["__version__"] = VERSION
