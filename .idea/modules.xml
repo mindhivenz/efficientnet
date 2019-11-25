@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/efficientnet.iml" filepath="$PROJECT_DIR$/efficientnet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/efficientnet-lite.iml" filepath="$PROJECT_DIR$/efficientnet-lite.iml" />
     </modules>
   </component>
 </project>
